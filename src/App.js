@@ -65,9 +65,63 @@ function App() {
         />
       </div>
 
-      <br />
-      <br />
-      <br />
+      {/* carousel, but not work */}
+      <div className="flex flex-col justify-center items-center h-96 items-center">
+        <div className="place-self-center flex flex-col gap-3 text-xl">
+          <p className="italic">
+            <span className="text-2xl text-yellow-500">"</span>
+            Product quality is excellent and its price are very economical
+            <span className="text-2xl text-yellow-500">"</span>
+          </p>
+          <p className="place-self-end text-lg text-gray-500 font-medium">
+            <span>-</span> ClothingNatinTo
+          </p>
+        </div>
+      </div>
+
+      {/* footer */}
+      <div className="h-96 flex items-center justify-center bg-gray-700">
+        <div className="flex items-start justify-center gap-80">
+          <div className="space-y-2.5">
+            <p className="font-accent font-semibold text-2xl text-gray-100">
+              fly apparel
+            </p>
+            <p className="text-lg text-gray-100">
+              fly.apparel.customer@yahoo.com
+            </p>
+          </div>
+
+          <div className="space-y-2 text-md font-medium text-gray-600">
+            <p className="py-1.5 transition duration-300 text-gray-200 hover:text-gray-100 border-b-2 rounded border-transparent hover:border-white px-2">
+              about
+            </p>
+            <p className="py-1.5 transition duration-300 text-gray-200 hover:text-gray-100 border-b-2 rounded border-transparent hover:border-white px-2">
+              company
+            </p>
+            <p className="py-1.5 transition duration-300 text-gray-200 hover:text-gray-100 border-b-2 rounded border-transparent hover:border-white px-2">
+              history
+            </p>
+            <p className="py-1.5 transition duration-300 text-gray-200 hover:text-gray-100 border-b-2 rounded border-transparent hover:border-white px-2">
+              who we are
+            </p>
+          </div>
+
+          <div className="space-y-2 text-md font-medium text-gray-600">
+            <p className="py-1.5 transition duration-300 text-gray-200 hover:text-gray-100 border-b-2 rounded border-transparent hover:border-white px-2">
+              products
+            </p>
+            <p className="py-1.5 transition duration-300 text-gray-200 hover:text-gray-100 border-b-2 rounded border-transparent hover:border-white px-2">
+              marketing
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="bg-gray-800 text-md font-bold text-gray-300 flex flex-row justify-center items-center gap-10 py-4">
+        <p className="font-accent">facebook</p>
+        <p className="font-accent">instagram</p>
+        <p className="font-accent">twitter</p>
+      </div>
     </div>
   );
 }

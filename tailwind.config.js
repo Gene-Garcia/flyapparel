@@ -4,6 +4,13 @@ module.exports = {
   theme: {
     extend: {},
   },
-  varians: { extend: { scale: ["hover"], transform: ["hover"] } },
+  variants: {
+    extend: {
+      scale: ["hover"],
+      transform: ["hover"],
+      borderWidth: ["hover"],
+      borderColor: ["hover"],
+    },
+  },
   plugins: [],
 };
